@@ -14,33 +14,51 @@ header.body-header{
 .horizonta-list{
     list-style: none;
     padding-left: 0px;
+    margin: 0px;
 }
 .horizonta-list li{
     display: inline-block;
-    margin: 0rem 1rem 1rem 0rem;
+    margin: 1em 1rem;
     font-size:large;
 }
 .horizonta-list li a{
     color: white;
     text-decoration: none;
-    transition: color 0.5s border-bottom 4s;
+    
      
 }
-.horizonta-list li a:hover{
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+
+}
+.nav-menu li a:hover{
     color:lightgray;
     text-decoration: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
      
 }
 .text-center{
     text-align: center;
 }
-
-#my-name{
+.name-social-container{
+    margin-top: 20vh;
+}
+.my-name{
     font-size: 3rem;
     letter-spacing: 0.1rem;
     color: white;
     font-weight: 700;
     margin-bottom: 0.5rem;
+
+}
+.social-icon li a img{
+    padding:10px;
+    font-size: 1rem;
+    border-radius: 50%;
+
+
+}
+.social-icon li a img:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
     
 }
